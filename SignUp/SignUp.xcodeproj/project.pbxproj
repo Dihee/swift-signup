@@ -16,6 +16,7 @@
 		731F944727F2F3BA0073BACD /* SignUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731F944627F2F3BA0073BACD /* SignUpTests.swift */; };
 		731F945127F2F3BA0073BACD /* SignUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731F945027F2F3BA0073BACD /* SignUpUITests.swift */; };
 		731F945327F2F3BA0073BACD /* SignUpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731F945227F2F3BA0073BACD /* SignUpUITestsLaunchTests.swift */; };
+		73B39CC127F48D250082D63A /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B39CC027F48D250082D63A /* Delegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		731F944C27F2F3BA0073BACD /* SignUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		731F945027F2F3BA0073BACD /* SignUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpUITests.swift; sourceTree = "<group>"; };
 		731F945227F2F3BA0073BACD /* SignUpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		73B39CC027F48D250082D63A /* Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				731F943127F2F3B90073BACD /* SceneDelegate.swift */,
 				73D129BD27F4233200FCC687 /* ViewController */,
 				731F943527F2F3B90073BACD /* Main.storyboard */,
+				73B39CC027F48D250082D63A /* Delegate.swift */,
 				731F943827F2F3B90073BACD /* Assets.xcassets */,
 				731F943A27F2F3B90073BACD /* LaunchScreen.storyboard */,
 				731F943D27F2F3B90073BACD /* Info.plist */,
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73B39CC127F48D250082D63A /* Delegate.swift in Sources */,
 				731F943427F2F3B90073BACD /* Step1ViewController.swift in Sources */,
 				731F943027F2F3B90073BACD /* AppDelegate.swift in Sources */,
 				731F943227F2F3B90073BACD /* SceneDelegate.swift in Sources */,

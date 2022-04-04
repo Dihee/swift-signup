@@ -14,11 +14,13 @@ class Step1ViewController: UIViewController {
     @IBOutlet weak var passwordCheckField: UITextField!
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var button: UIButton!
+    @IBOutlet weak var background: UIView!
     
     private var keyHeight: CGFloat?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        background.backgroundColor = UIColor(red: 248 / 255, green: 248 / 255, blue: 248 / 255, alpha: 1)
         
         setIdField()
         setPasswordField()

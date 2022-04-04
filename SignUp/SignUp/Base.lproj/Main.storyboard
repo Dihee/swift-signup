@@ -126,6 +126,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="background" destination="7Ys-7i-0gB" id="gCE-EI-VLf"/>
                         <outlet property="button" destination="DI6-WO-AIQ" id="KD4-DD-eOp"/>
                         <outlet property="idField" destination="o8h-jT-PBc" id="rEE-6F-uVF"/>
                         <outlet property="nameField" destination="WRv-fy-68G" id="bxN-be-Rn8"/>
